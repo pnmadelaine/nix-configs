@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+result=$(nix-build $ROOT/home-manager/configurations -A "$1.activationPackage" --no-out-link)
+$result/activate

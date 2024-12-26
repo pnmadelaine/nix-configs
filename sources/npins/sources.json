@@ -1,0 +1,88 @@
+{
+  "pins": {
+    "flake-compat": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "Git",
+        "url": "https://git.lix.systems/lix-project/flake-compat"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "version": "v1.0.1",
+      "revision": "0f9255e01c2351cc7d116c072cb317785dd33b33",
+      "url": null,
+      "hash": "0m9grvfsbwmvgwaxvdzv6cmyvjnlww004gfxjvcl806ndqaxzy4j"
+    },
+    "home-manager": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "home-manager"
+      },
+      "branch": "master",
+      "revision": "35b98d20ca8f4ca1f6a2c30b8a2c8bb305a36d84",
+      "url": "https://github.com/nix-community/home-manager/archive/35b98d20ca8f4ca1f6a2c30b8a2c8bb305a36d84.tar.gz",
+      "hash": "0k12xs09rp0w80gc7kvwbidfr65kls2wjc7rpvy7sjylqq6v8vqs"
+    },
+    "lanzaboote": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "lanzaboote"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "version": "v0.4.1",
+      "revision": "53b8af779b23bdc2ca3dc5bae93aa564c334aa03",
+      "url": "https://api.github.com/repos/nix-community/lanzaboote/tarball/v0.4.1",
+      "hash": "1hda4f0xx56r98kp5hy21f0802c0zf8n6g7li1yz183f1ynp49kr"
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixpkgs-unstable",
+      "url": "https://releases.nixos.org/nixpkgs/nixpkgs-25.05pre728218.de1864217bfa/nixexprs.tar.xz",
+      "hash": "07ns5l74dy0hgzc3asbxrq68zm1zhn22nvm5k5gsxpndzmpg48dh"
+    },
+    "nixvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "nixvim"
+      },
+      "branch": "main",
+      "revision": "87b2679d6fb61bac08b2a17501e14da7be534fcb",
+      "url": "https://github.com/nix-community/nixvim/archive/87b2679d6fb61bac08b2a17501e14da7be534fcb.tar.gz",
+      "hash": "0d3alcyf2sdgicn1gdnkij0bkg2i590whls9cp0zwpflv6ngj4fn"
+    },
+    "nur": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "nur"
+      },
+      "branch": "master",
+      "revision": "5aad85068121a65a0b46ae7d234b35636a7f5d39",
+      "url": "https://github.com/nix-community/nur/archive/5aad85068121a65a0b46ae7d234b35636a7f5d39.tar.gz",
+      "hash": "07qjsqfz3lnxzhdycg98iybvhmz0yi04nwhnbhkcvs4388994yxx"
+    },
+    "plasma-manager": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "plasma-manager"
+      },
+      "branch": "trunk",
+      "revision": "d16bbded0ae452bc088489e7dca3ef58d8d1830b",
+      "url": "https://github.com/nix-community/plasma-manager/archive/d16bbded0ae452bc088489e7dca3ef58d8d1830b.tar.gz",
+      "hash": "0cb7hnfaj2pqm4a2j50v96bknamrmhrhpp4yhilylxcp9kv1srbx"
+    }
+  },
+  "version": 3
+}
