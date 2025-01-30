@@ -36,7 +36,9 @@
   plugins.mini.enable = true;
   plugins.nvim-tree.enable = true;
   plugins.project-nvim.enable = true;
-  plugins.remote-nvim.enable = true;
+  # plugins.remote-nvim.enable = true;
   plugins.render-markdown.enable = true;
   plugins.which-key.enable = true;
+
+  # nixpkgs.useGlobalPackages = true;
 }

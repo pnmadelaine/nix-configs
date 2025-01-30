@@ -21,10 +21,10 @@
         "owner": "nix-community",
         "repo": "home-manager"
       },
-      "branch": "master",
-      "revision": "35b98d20ca8f4ca1f6a2c30b8a2c8bb305a36d84",
-      "url": "https://github.com/nix-community/home-manager/archive/35b98d20ca8f4ca1f6a2c30b8a2c8bb305a36d84.tar.gz",
-      "hash": "0k12xs09rp0w80gc7kvwbidfr65kls2wjc7rpvy7sjylqq6v8vqs"
+      "branch": "release-24.11",
+      "revision": "bd65bc3cde04c16755955630b344bc9e35272c56",
+      "url": "https://github.com/nix-community/home-manager/archive/bd65bc3cde04c16755955630b344bc9e35272c56.tar.gz",
+      "hash": "15k41il0mvmwyv6jns4z8k6khhmb22jk5gpcqs1paym3l01g6abn"
     },
     "lanzaboote": {
       "type": "GitRelease",
@@ -36,16 +36,16 @@
       "pre_releases": false,
       "version_upper_bound": null,
       "release_prefix": null,
-      "version": "v0.4.1",
-      "revision": "53b8af779b23bdc2ca3dc5bae93aa564c334aa03",
-      "url": "https://api.github.com/repos/nix-community/lanzaboote/tarball/v0.4.1",
-      "hash": "1hda4f0xx56r98kp5hy21f0802c0zf8n6g7li1yz183f1ynp49kr"
+      "version": "v0.4.2",
+      "revision": "f0212638a2ec787a7841882f4477d40ae24f0a5d",
+      "url": "https://api.github.com/repos/nix-community/lanzaboote/tarball/v0.4.2",
+      "hash": "0xc1wawnb0297h5khxblmf9pd1fry950xkcm7mwlck19s2906h80"
     },
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-24.11",
-      "url": "https://releases.nixos.org/nixos/24.11/nixos-24.11.713184.e24b4c09e963/nixexprs.tar.xz",
-      "hash": "0a2vqjx7vpah7ydgk789p5wqdhwr8aq9y53a9fnw4sqshdykmd43"
+      "url": "https://releases.nixos.org/nixos/24.11/nixos-24.11.713818.59e618d90c06/nixexprs.tar.xz",
+      "hash": "1zbxdjg1d3i1k307frvr4zgcvzyg74j2p3isa7jzgnihagcv9zfg"
     },
     "nixvim": {
       "type": "Git",
@@ -54,10 +54,10 @@
         "owner": "nix-community",
         "repo": "nixvim"
       },
-      "branch": "main",
-      "revision": "87b2679d6fb61bac08b2a17501e14da7be534fcb",
-      "url": "https://github.com/nix-community/nixvim/archive/87b2679d6fb61bac08b2a17501e14da7be534fcb.tar.gz",
-      "hash": "0d3alcyf2sdgicn1gdnkij0bkg2i590whls9cp0zwpflv6ngj4fn"
+      "branch": "nixos-24.11",
+      "revision": "841155edf9c4578f2f9a7bd6993e1da2ce73b35c",
+      "url": "https://github.com/nix-community/nixvim/archive/841155edf9c4578f2f9a7bd6993e1da2ce73b35c.tar.gz",
+      "hash": "0j68lz4azg6q2d5gsaaa58v5vgnqpw7pmwy82jmcn15480mf3rpa"
     },
     "nur": {
       "type": "Git",
@@ -67,9 +67,9 @@
         "repo": "nur"
       },
       "branch": "master",
-      "revision": "5aad85068121a65a0b46ae7d234b35636a7f5d39",
-      "url": "https://github.com/nix-community/nur/archive/5aad85068121a65a0b46ae7d234b35636a7f5d39.tar.gz",
-      "hash": "07qjsqfz3lnxzhdycg98iybvhmz0yi04nwhnbhkcvs4388994yxx"
+      "revision": "9adb4172b8400f63ae02a40fc9e5db2297ff4724",
+      "url": "https://github.com/nix-community/nur/archive/9adb4172b8400f63ae02a40fc9e5db2297ff4724.tar.gz",
+      "hash": "19cm7nml3ibfpqg18g2pakiqcss3gimygdij7s42nlqx2sa15n68"
     },
     "plasma-manager": {
       "type": "Git",
@@ -79,9 +79,9 @@
         "repo": "plasma-manager"
       },
       "branch": "trunk",
-      "revision": "d16bbded0ae452bc088489e7dca3ef58d8d1830b",
-      "url": "https://github.com/nix-community/plasma-manager/archive/d16bbded0ae452bc088489e7dca3ef58d8d1830b.tar.gz",
-      "hash": "0cb7hnfaj2pqm4a2j50v96bknamrmhrhpp4yhilylxcp9kv1srbx"
+      "revision": "a53af7f1514ef4cce8620a9d6a50f238cdedec8b",
+      "url": "https://github.com/nix-community/plasma-manager/archive/a53af7f1514ef4cce8620a9d6a50f238cdedec8b.tar.gz",
+      "hash": "13dljchnz264qp26396lcz7ylkw2ychmwqxxl0c9bdwkml3j8g2z"
     }
   },
   "version": 3
