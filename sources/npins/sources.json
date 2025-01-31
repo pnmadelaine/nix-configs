@@ -1,5 +1,17 @@
 {
   "pins": {
+    "disko": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "disko"
+      },
+      "branch": "master",
+      "revision": "18d0a984cc2bc82cf61df19523a34ad463aa7f54",
+      "url": "https://github.com/nix-community/disko/archive/18d0a984cc2bc82cf61df19523a34ad463aa7f54.tar.gz",
+      "hash": "02i8sgnjzk4srk4j7qnjzig0rd4ip7a1vpbi5ynaqs1hh56q10r9"
+    },
     "flake-compat": {
       "type": "GitRelease",
       "repository": {
@@ -82,6 +94,18 @@
       "revision": "a53af7f1514ef4cce8620a9d6a50f238cdedec8b",
       "url": "https://github.com/nix-community/plasma-manager/archive/a53af7f1514ef4cce8620a9d6a50f238cdedec8b.tar.gz",
       "hash": "13dljchnz264qp26396lcz7ylkw2ychmwqxxl0c9bdwkml3j8g2z"
+    },
+    "website": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "pnmadelaine",
+        "repo": "website"
+      },
+      "branch": "main",
+      "revision": "c2f109d689d4db78c3cf0209387519c2ab6a2c8c",
+      "url": "https://github.com/pnmadelaine/website/archive/c2f109d689d4db78c3cf0209387519c2ab6a2c8c.tar.gz",
+      "hash": "0ih3l6nlvrvps28vycxqlmcm0hj7cjycl4ixydk5sqlky2miphfn"
     }
   },
   "version": 3
