@@ -6,17 +6,18 @@
   ...
 }:
 {
-  imports = [
+  imports = with specialArgs.modules; [
     (modulesPath + "/installer/scan/not-detected.nix")
     (modulesPath + "/profiles/qemu-guest.nix")
     ./disk-config.nix
+    acme
   ];
 
   services.nginx = {
     enable = true;
     virtualHosts."pnm.tf" = {
-      enableACME = true;
       forceSSL = true;
+      useACMEHost = "pnm.tf";
       locations."/" = {
         root = import specialArgs.sources.website { inherit pkgs; };
       };
@@ -27,9 +28,6 @@
     80
     443
   ];
-
-  security.acme.certs."pnm.tf".email = "pnm@pnm.tf";
-  security.acme.acceptTerms = true;
 
   services.openssh.enable = true;
 
