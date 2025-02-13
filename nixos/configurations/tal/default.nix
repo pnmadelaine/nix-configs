@@ -15,6 +15,8 @@
     keycloak
   ];
 
+  environment.defaultPackages = [ pkgs.vim ];
+
   services.nginx = {
     enable = true;
     recommendedProxySettings = true;
