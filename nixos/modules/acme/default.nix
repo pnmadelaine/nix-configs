@@ -14,8 +14,10 @@
         email = "pnm@pnm.tf";
         dnsProvider = "ovh";
         environmentFile = "/var/lib/secrets/ovh-dns-zone";
-        group = "nginx";
+        group = "certs";
       };
     };
   };
+
+  users.groups.certs = { };
 }

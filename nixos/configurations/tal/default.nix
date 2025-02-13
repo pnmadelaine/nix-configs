@@ -24,6 +24,8 @@
     };
   };
 
+  users.groups.certs.members = [ "nginx" ];
+
   networking.firewall.allowedTCPPorts = [
     80
     443
