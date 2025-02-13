@@ -11,6 +11,7 @@
     (modulesPath + "/profiles/qemu-guest.nix")
     ./disk-config.nix
     acme
+    forgejo
     keycloak
   ];
 
