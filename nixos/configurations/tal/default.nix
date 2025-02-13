@@ -11,10 +11,12 @@
     (modulesPath + "/profiles/qemu-guest.nix")
     ./disk-config.nix
     acme
+    keycloak
   ];
 
   services.nginx = {
     enable = true;
+    recommendedProxySettings = true;
     virtualHosts."pnm.tf" = {
       forceSSL = true;
       useACMEHost = "pnm.tf";
